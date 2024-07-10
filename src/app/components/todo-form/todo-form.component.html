@@ -16,12 +16,12 @@
     <textarea matInput formControlName="description" placeholder="Descrição"></textarea>
   </mat-form-field>
 
-  <div class="todo_actions">
+  <div class="todo_form_actions">
     <button mat-raised-button class="todo_form_sucess_btn" type="submit">
       Adicionar
     </button>
 
-    <button mat-raised-button color="warn" type="button">
+    <button mat-raised-button color="warn" type="button" (click)="handleCloseModal()">
       Cancelar
     </button>
 
